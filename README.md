@@ -1,4 +1,4 @@
-# copy-ndexes-from-elastic
+# copy-indexes-from-elastic
 
 This project is a Python application that interacts with Elasticsearch to copy data from a cloud-based Elasticsearch instance to a local Docker-based Elasticsearch instance. The project uses the dotenv library to load environment variables and the elasticsearch library to interact with Elasticsearch.
 
