@@ -5,9 +5,9 @@ This project is a Python application that interacts with Elasticsearch to copy d
 ## Installation
 1. Clone the repository: ```git clone https://github.com/ShmuelRob/copy-indexes-between-es.git```
 2. Create and activate a virtual environment: ```python -m venv venv source venv/bin/activate```
-3. On Windows use ```venv\Scripts\activate```  
-4. Install the required packages: ```pip install -r requirements.txt```
-5. fill the .env file.
+  On Windows use ```venv\Scripts\activate```  
+3. Install the required packages: ```pip install -r requirements.txt```
+4. fill the .env file.
 
 ## Usage
 Run the script to copy data from the cloud Elasticsearch instance to the local Docker-based Elasticsearch instance: ```python app/src/copy_indexes.py```
